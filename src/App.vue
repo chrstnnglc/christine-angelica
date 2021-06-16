@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Nix" src="./assets/nix.jpg" width=700 height=393>
-    <Home msg="ヽ(・∀・)ﾉ"/>
+    <Home />
   </div>
 </template>
 
@@ -18,11 +17,10 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Aileron Light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
