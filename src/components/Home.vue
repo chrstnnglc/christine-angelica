@@ -42,7 +42,7 @@ export default {
 }
 .hello {
   padding-top: 100px;
-  background-color: #2c3e50;
+  background-color: #333f50;
 }
 .hello h3 {
   color: #ffffff;
@@ -54,7 +54,7 @@ export default {
   background-color: white;
 }
 .interests {
-  background-color: #2c3e50;
+  background-color: #333f50;
 }
 .interests h3 {
   color: #ffffff;
@@ -63,7 +63,7 @@ export default {
   background-color: white;
 }
 .footer {
-  background-color: #2c3e50;
+  background-color: #333f50;
   padding-top: 10px;
   padding-bottom: 10px;
 }
