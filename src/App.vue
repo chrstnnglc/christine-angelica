@@ -16,8 +16,13 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "Aileron";
+  src: local("Aileron"),
+   url(./fonts/Aileron/Aileron-Light.otf) format("opentype");
+}
 #app {
-  font-family: Aileron Light;
+  font-family: "Aileron", Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
