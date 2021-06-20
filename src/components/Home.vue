@@ -9,16 +9,60 @@
       <h5>I am a software developer and UX enthusiast from Quezon City, Philippines.</h5>
     </div>
 
-    <div class="background row">
+    <div class="background container">
       <h3>Background</h3>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Problem solver</h5>
+
+            <p>I've been working as a software engineer for almost 3 years. As a translator of real-world scenarios to code, I have encountered (and solved!) many implementation challenges and roadblocks.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User-focused</h5>
+
+            <p>While my work mostly focused on developing product features, it is important to keep the users in mind as we build. I made sure to make each feature I code user-friendly, regardless of the system's complexity.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Team player</h5>
+
+            <p>I work well with my teammates and colleagues, and form good relationships with them. I do my part to synthesize.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h6>Interested in my career? Click here!</h6>
+      </div>
     </div>
 
-    <div class="interests row">
+    <!-- <div class="interests row">
       <h3>Interests</h3>
-    </div>
+    </div> -->
 
     <div class="contact row">
-      <h3>Let's chat!</h3>
+      <h3>Let's connect!</h3>
+      <div class="container">
+        <div class="col s12 m6">
+          <div>
+            
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center"><i class="material-icons">settings</i></h2>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="footer row">
@@ -40,12 +84,11 @@ export default {
 <style scoped>
 .row {
   margin-bottom: 0px;
-  padding-top: 40px;
-  padding-bottom: 100px;
 }
 .hello {
   padding-top: 100px;
   background-color: #333f50;
+  padding-bottom: 100px;
 }
 .hello h3 {
   color: #ffffff;
@@ -54,16 +97,30 @@ export default {
   color: #ffffff;
 }
 .background {
+  padding-top: 40px;
   background-color: white;
+  padding-bottom: 40px;
 }
 .interests {
+  padding-top: 40px;
   background-color: #333f50;
+  padding-bottom: 40px;
 }
 .interests h3 {
   color: #ffffff;
 }
-.contact {
+/*.contact {
+  padding-top: 40px;
   background-color: white;
+  padding-bottom: 100px;
+}*/
+.contact {
+  padding-top: 40px;
+  background-color: #333f50;
+  padding-bottom: 40px;
+}
+.contact h3 {
+  color: #ffffff;
 }
 .footer {
   background-color: #333f50;
