@@ -1,5 +1,16 @@
 <template>
   <div>
+    <nav>
+      <div class="nav-wrapper">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/"><i class="material-icons">home</i></a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <!-- <li><a href="interests.html">Interests</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="hello row">
       <div class="col s12 m4">
         <div class="pic">
@@ -86,11 +97,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+nav {
+  background-color: #333f50;
+}
+nav a {
+  font-family: "Aileron Light";
+  color: #ffffff;
+}
 .row {
   margin-bottom: 0px;
 }
 .hello {
-  padding-top: 100px;
+  padding-top: 50px;
   background-color: #333f50;
   padding-bottom: 50px;
 }
