@@ -1,15 +1,19 @@
 <template>
   <div>
     <div class="hello row">
-      <div class="pic">
-        <img alt="Nix" src="../assets/nix-avatar.jpg">
-        <img alt="Nix" src="../assets/nix-avatar2.png" class="img-top">
+      <div class="col s12 m4">
+        <div class="pic">
+          <img alt="Nix" src="../assets/nix-avatar.jpg">
+          <img alt="Nix" src="../assets/nix-avatar2.png" class="img-top">
+        </div>
       </div>
-      <h3>はじめまして！Christineです！<br>ヽ(・∀・)ﾉ</h3>
-      <h5>I am a software developer and UX enthusiast from Quezon City, Philippines.</h5>
+      <div class="col s12 m8">
+        <h3>はじめまして！Christineです！<br>ヽ(・∀・)ﾉ</h3>
+        <h5>I am a software developer and UX enthusiast from Quezon City, Philippines.</h5>
+      </div>
     </div>
 
-    <div class="background container">
+    <!-- <div class="background container">
       <h3>Background</h3>
       <div class="row">
         <div class="col s12 m4">
@@ -24,9 +28,9 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User-focused</h5>
+            <h5 class="center">Eager learner</h5>
 
-            <p>While my work mostly focused on developing product features, it is important to keep the users in mind as we build. I made sure to make each feature I code user-friendly, regardless of the system's complexity.</p>
+            <p>I am passionate about learning ways to make designs pleasant and usable. The challenges I encountered in my work as a software developer paved ways for me to learn.</p>
           </div>
         </div>
 
@@ -39,34 +43,34 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <h6>Interested in my career? Click here!</h6>
-      </div>
-    </div>
-
-    <!-- <div class="interests row">
-      <h3>Interests</h3>
     </div> -->
 
-    <div class="contact row">
-      <h3>Let's connect!</h3>
-      <div class="container">
+    <div class="projects container">
+      <!-- <h3>Projects</h3> -->
+      <div class="row">
         <div class="col s12 m6">
-          <div>
-            
+          <div class="project card">
+            <div class="card-image">
+              <img alt="Nix" src="../assets/nix.jpg" class="img-top">
+              <span class="card-title">Company website</span>
+            </div>
+            <div class="card-content">
+              <p>A static informational website for Montepiedra Aggregates Corporation that I designed and developed. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
+            </div>
           </div>
         </div>
-
         <div class="col s12 m6">
-          <div class="icon-block">
-            <h2 class="center"><i class="material-icons">settings</i></h2>
+          <div class="project card">
+            <div class="card-image">
+              <img alt="Nix" src="../assets/nix.jpg" class="img-top">
+              <span class="card-title">School information system</span>
+            </div>
+            <div class="card-content">
+              <p>Worked with a team as a full stack developer, prominently on the Grading module, ensuring usefulness, accessibility, and usability.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="footer row">
-      <h6>Christine Felizardo, 2021.</h6>
     </div>
   </div>
 </template>
@@ -88,12 +92,14 @@ export default {
 .hello {
   padding-top: 100px;
   background-color: #333f50;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .hello h3 {
+  text-align: left;
   color: #ffffff;
 }
 .hello h5 {
+  text-align: left;
   color: #ffffff;
 }
 .background {
@@ -101,35 +107,26 @@ export default {
   background-color: white;
   padding-bottom: 40px;
 }
-.interests {
+.projects {
   padding-top: 40px;
-  background-color: #333f50;
+  /*background-color: #333f50;*/
   padding-bottom: 40px;
 }
-.interests h3 {
+/*.projects h3 {
   color: #ffffff;
+}*/
+.projects .row .col .project {
+  font-size: 18px;
 }
+/*.projects .row .col .project img {
+  width: 300px;
+  height: 300px;
+}*/
 /*.contact {
   padding-top: 40px;
   background-color: white;
   padding-bottom: 100px;
 }*/
-.contact {
-  padding-top: 40px;
-  background-color: #333f50;
-  padding-bottom: 40px;
-}
-.contact h3 {
-  color: #ffffff;
-}
-.footer {
-  background-color: #333f50;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.footer h6 {
-  color: #ffffff;
-}
 h3 {
   margin: 40px 0 0;
 }
@@ -144,10 +141,10 @@ li {
 a {
   color: #42b983;
 }
-img {
+.hello .pic img {
   border-radius: 50%;
-  width: 320px;
-  height: 320px;
+  width: 250px;
+  height: 250px;
 }
 .pic {
   position: relative;
