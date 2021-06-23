@@ -57,7 +57,7 @@
     </div> -->
 
     <div class="projects container">
-      <h3>Projects</h3>
+      <h3>Experience</h3>
       <div class="row">
         <div class="col s12 m6">
           <div class="project card">
@@ -66,7 +66,7 @@
             </div> -->
             <div class="card-content">
               <span class="card-title">Company website</span>
-              <p>A static informational website for Montepiedra Aggregates Corporation that I designed and developed. Ensured design stays true to their brand, and is accessible to potential customers. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
+              <p>Designed and developed a static informational website for Montepiedra Aggregates Corporation. Ensured design stays true to their brand, and is accessible to potential customers. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
             </div> -->
             <div class="card-content">
               <span class="card-title">School information system</span>
-              <p>Currently working with a team as a full stack developer, prominently on the Grading module, using Elixir, PostgreSQL, GraphQL, Angular, and Typescript. Ensures usefulness, accessibility, and usability of features.</p>
+              <p>Currently working with a team as a full stack developer, prominently on the Grading module, using Elixir, PostgreSQL, GraphQL, Angular, and Typescript. Ensures features are useful, accessible, and usable, and pleasant for the user to navigate.</p>
             </div>
           </div>
         </div>
