@@ -28,12 +28,14 @@ export default {
 
 <style>
 @font-face {
-  font-family: "Aileron";
-  src: local("Aileron"),
-   url(./fonts/Aileron/Aileron-Light.otf) format("opentype");
+  font-family: 'Aileron';
+  src: url('./fonts/Aileron/aileron-light-webfont.woff2') format('woff2'),
+       url('./fonts/Aileron/aileron-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 #footer {
-  font-family: "Aileron", Helvetica, Arial;
+  font-family: 'Aileron', Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
