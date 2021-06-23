@@ -1,16 +1,16 @@
 <template>
   <div id="footer">
     <div class="contact row">
-      <!-- <h3>Let's connect!</h3> -->
       <div class="container">
         <div class="col s12 m12">
+          <h5>Let's connect!</h5>
           <div class="icon-block">
             <h6 class="center">
               <a href="https://www.linkedin.com/in/christine-felizardo-116625136/" target="_blank"><img src="./assets/linkedin.png"></a>
               <a href="https://www.twitter.com/chrstnnglc" target="_blank"><img src="./assets/twitter.png" /></a>
-              <a href="mailto:catfelizardo@gmail.com" target="_blank"><img src="./assets/email.png" /></a>
+              <!-- <a href="mailto:catfelizardo@gmail.com" target="_blank"><img src="./assets/email.png" /></a> -->
             </h6>
-            <p>Christine Felizardo, 2021.</p>
+            <p>catfelizardo@gmail.com</p>
           </div>
         </div>
       </div>
@@ -48,6 +48,9 @@ export default {
 .contact .container .col .icon-block h6 img {
   padding-left: 10px;
   padding-right: 10px;
+}
+#footer .contact .container .col h5 {
+  color: #ffffff;
 }
 .contact .container .col .icon-block p {
   color: #ffffff;

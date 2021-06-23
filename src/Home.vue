@@ -1,24 +1,24 @@
 <template>
-  <div>
-    <nav>
+  <div id="home">
+    <!-- <nav>
       <div class="nav-wrapper">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="/"><i class="material-icons">home</i></a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <!-- <li><a href="interests.html">Interests</a></li> -->
+          <li><a href="background.html">Background</a></li>
+          <li><a href="interests.html">Interests</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
     <div class="hello row">
-      <div class="col s12 m4">
+      <div class="col s12 m12">
         <div class="pic">
-          <img alt="Nix" src="../assets/nix-avatar.jpg">
-          <img alt="Nix" src="../assets/nix-avatar2.png" class="img-top">
+          <img alt="Nix" src="./assets/nix-avatar.jpg">
+          <!-- <img alt="Nix" src="./assets/nix-avatar2.png" class="img-top"> -->
         </div>
       </div>
-      <div class="col s12 m8">
+      <div class="col s12 m12">
         <h3>はじめまして！Christineです！<br>ヽ(・∀・)ﾉ</h3>
         <h5>I am a software developer and UX enthusiast from Quezon City, Philippines.</h5>
       </div>
@@ -62,22 +62,22 @@
         <div class="col s12 m6">
           <div class="project card">
             <div class="card-image">
-              <img alt="Nix" src="../assets/nix.jpg" class="img-top">
-              <span class="card-title">Company website</span>
+              <img src="./assets/mac.png">
             </div>
             <div class="card-content">
-              <p>A static informational website for Montepiedra Aggregates Corporation that I designed and developed. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
+              <span class="card-title">Company website</span>
+              <p>A static informational website for Montepiedra Aggregates Corporation that I designed and developed. Ensured design stays true to their brand, and is accessible to potential customers. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
             </div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="project card">
             <div class="card-image">
-              <img alt="Nix" src="../assets/nix.jpg" class="img-top">
-              <span class="card-title">School information system</span>
+              <img alt="Nix" src="./assets/nix.jpg" class="img-top">
             </div>
             <div class="card-content">
-              <p>Worked with a team as a full stack developer, prominently on the Grading module, ensuring usefulness, accessibility, and usability.</p>
+              <span class="card-title">School information system</span>
+              <p>Currently working with a team as a full stack developer, prominently on the Grading module, using Elixir, PostgreSQL, GraphQL, Angular, and Typescript. Ensures usefulness, accessibility, and usability of features.</p>
             </div>
           </div>
         </div>
@@ -89,19 +89,30 @@
 <script>
 export default {
   name: 'Home',
-  // props: {
-  //   msg: String
+  // components: {
+  //   Home
   // }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
+@font-face {
+  font-family: "Aileron";
+  src: local("Aileron"),
+   url(./fonts/Aileron/Aileron-Light.otf) format("opentype");
+}
+#home {
+  font-family: "Aileron", Helvetica, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 nav {
   background-color: #333f50;
 }
 nav a {
-  font-family: "Aileron Light";
+  font-family: "Aileron";
   color: #ffffff;
 }
 .row {
@@ -113,11 +124,11 @@ nav a {
   padding-bottom: 50px;
 }
 .hello h3 {
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 .hello h5 {
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 .background {

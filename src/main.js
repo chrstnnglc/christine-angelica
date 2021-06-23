@@ -1,12 +1,12 @@
 import Vue from 'vue'
-import App from './App.vue'
+import Home from './Home.vue'
 import Footer from './Footer.vue'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: h => h(Home),
+}).$mount('#home')
 
 new Vue({
   render: h => h(Footer),
