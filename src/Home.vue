@@ -57,13 +57,13 @@
     </div> -->
 
     <div class="projects container">
-      <!-- <h3>Projects</h3> -->
+      <h3>Projects</h3>
       <div class="row">
         <div class="col s12 m6">
           <div class="project card">
-            <div class="card-image">
+            <!-- <div class="card-image">
               <img src="./assets/mac.png">
-            </div>
+            </div> -->
             <div class="card-content">
               <span class="card-title">Company website</span>
               <p>A static informational website for Montepiedra Aggregates Corporation that I designed and developed. Ensured design stays true to their brand, and is accessible to potential customers. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
@@ -72,14 +72,30 @@
         </div>
         <div class="col s12 m6">
           <div class="project card">
-            <div class="card-image">
+            <!-- <div class="card-image">
               <img alt="Nix" src="./assets/nix.jpg" class="img-top">
-            </div>
+            </div> -->
             <div class="card-content">
               <span class="card-title">School information system</span>
               <p>Currently working with a team as a full stack developer, prominently on the Grading module, using Elixir, PostgreSQL, GraphQL, Angular, and Typescript. Ensures usefulness, accessibility, and usability of features.</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="certificates container">
+      <h3>Certificates</h3>
+      <div class="row">
+        <div class="col s12 m6">
+          <img src="./assets/ixdf-member.jpg" class="cert">
+          <h6><a href="https://www.interaction-design.org/christine-felizardo/certificate/membership/QD11LtLx1?r=christine-felizardo">Member</a></h6>
+          <h6>The Interaction Design Foundation</h6>
+        </div>
+        <div class="col s12 m6">
+          <img src="./assets/ixdf-tpgu.jpg" class="cert">
+          <h6><a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d6be9e76-a2ad-4ec9-a4fc-bc3ac2bd424d?certificateType=course">The Practical Guide to Usability (Top 10% Distinction)</a></h6>
+          <h6>The Interaction Design Foundation</h6>
         </div>
       </div>
     </div>
@@ -107,6 +123,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #f8f8ff;
 }
 nav {
   background-color: #333f50;
@@ -115,35 +132,38 @@ nav a {
   font-family: "Aileron";
   color: #ffffff;
 }
+a, a:visited {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+a:hover {
+  color: #f7cac9;
+}
 .row {
   margin-bottom: 0px;
 }
 .hello {
   padding-top: 50px;
-  background-color: #333f50;
+  background-color: #91a8d0;
   padding-bottom: 50px;
 }
-.hello h3 {
-  text-align: center;
-  color: #ffffff;
-}
-.hello h5 {
+.hello h3, .hello h5 {
   text-align: center;
   color: #ffffff;
 }
 .background {
   padding-top: 40px;
+  padding-bottom: 40px;
   background-color: white;
+}
+.projects, .certificates {
+  padding-top: 20px;
   padding-bottom: 40px;
 }
-.projects {
-  padding-top: 40px;
-  /*background-color: #333f50;*/
-  padding-bottom: 40px;
+.projects h3, .certificates h3 {
+  font-size: 36px;
+  padding-bottom: 30px;
 }
-/*.projects h3 {
-  color: #ffffff;
-}*/
 .projects .row .col .project {
   font-size: 18px;
 }
@@ -191,5 +211,9 @@ a {
 .pic:hover .img-top {
   display: inline;
   opacity: 1;
+}
+.cert {
+  width: 90%;
+  height: 90%;
 }
 </style>

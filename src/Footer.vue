@@ -41,7 +41,7 @@ export default {
 }
 .contact {
   padding-top: 10px;
-  background-color: #333f50;
+  background-color: #91a8d0;
   padding-bottom: 10px;
   margin-bottom: 0px;
 }
