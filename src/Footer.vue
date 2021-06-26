@@ -27,13 +27,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: 'Aileron';
-  src: url('./fonts/Aileron/aileron-light-webfont.woff2') format('woff2'),
-       url('./fonts/Aileron/aileron-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 #footer {
   font-family: 'Aileron', Helvetica, Arial;
   -webkit-font-smoothing: antialiased;
@@ -52,9 +45,13 @@ export default {
   padding-right: 10px;
 }
 #footer .contact .container .col h5 {
+  text-align: center;
+  font-size: 24px;
   color: #ffffff;
 }
 .contact .container .col .icon-block p {
+  text-align: center;
+  font-size: 18px;
   color: #ffffff;
 }
 </style>
