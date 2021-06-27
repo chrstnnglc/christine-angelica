@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Home from './Home.vue'
 import About from './About.vue'
 import Projects from './Projects.vue'
+import Resume from './Resume.vue'
 import Oops from './Oops.vue'
 import Footer from './Footer.vue'
 
@@ -11,6 +12,7 @@ const routes = {
   '/': Home,
   '/about': About,
   '/projects': Projects,
+  '/resume': Resume,
   '/oops': Oops
 }
 

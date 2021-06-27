@@ -6,6 +6,7 @@
           <li><a href="/"><i class="material-icons">home</i></a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
+          <li><a href="/resume">Resume</a></li>
           <!-- <li><a href="/contact">Contact</a></li> -->
         </ul>
       </div>
@@ -34,7 +35,7 @@
             </div> -->
             <div class="card-content">
               <span class="card-title">Company website</span>
-              <p>Designed and developed a static informational website for an aggregates company. Ensured design stays true to their brand, and is accessible to potential customers. <br> <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/">website.</a></p>
+              <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <br> <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/">website.</a></p>
             </div>
           </div>
         </div>
@@ -42,7 +43,7 @@
           <div class="project card">
             <div class="card-content">
               <span class="card-title">School information system</span>
-              <p>Currently working with a team as a full stack developer, prominently on the Grading module. Ensures interface matches data structure and function, but is also pleasant for the user. <br> <a href="/projects#sis">Read more.</a></p>
+              <p>I'm currently working with a team as a full stack developer, prominently on the Grading module. As a developer utilizing the provided designs and technology, I ensure the interface matches data structure and function, but is also pleasant for the user to navigate. <br> <a href="/projects#sis">Read more.</a></p>
             </div>
           </div>
         </div>
