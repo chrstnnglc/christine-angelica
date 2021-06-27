@@ -2,7 +2,7 @@
   <div id="oops">
     <nav>
       <div class="nav-wrapper">
-        <ul>
+        <ul class="right">
           <li><a href="/"><i class="material-icons">home</i></a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
@@ -16,16 +16,6 @@
       <h1>Oops!</h1>
       <h3>There's nothing on this page. <a href="/">Click here</a> to go back home.</h3>
     </div>
-    
-    <!-- <nav>
-      <div class="nav-wrapper">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="/"><i class="material-icons">home</i></a></li>
-          <li class="active"><a href="/about">About</a></li>
-          <li><a href="/projects">Projects</a></li>
-        </ul>
-      </div>
-    </nav> -->
   </div>
 </template>
 

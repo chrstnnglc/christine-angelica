@@ -2,7 +2,7 @@
   <div id="about">
     <nav>
       <div class="nav-wrapper">
-        <ul>
+        <ul class="right">
           <li><a href="/"><i class="material-icons">home</i></a></li>
           <li class="active"><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
