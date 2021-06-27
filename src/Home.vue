@@ -21,12 +21,12 @@
       </div>
       <div class="col s12 m12">
         <h5>I am a software developer from the Philippines, looking to transition to UX design.</h5>
-        <h6>Also, that's not really me: that's my character in Animal Crossing: New Horizons! ヽ(・∀・)ﾉ</h6>
+        <h6>Also, that's not really me: that's my character in Animal Crossing: New Horizons ヽ(・∀・)ﾉ</h6>
       </div>
     </div>
 
     <div class="projects container">
-      <h3>Experience</h3>
+      <h3>In a nutshell 🥜</h3>
       <div class="row">
         <div class="col s12 m6">
           <div class="project card">
@@ -80,8 +80,8 @@ export default {
 <style>
 @font-face {
   font-family: 'Aileron';
-  src: url('./fonts/Aileron/aileron-light-webfont.woff2') format('woff2'),
-       url('./fonts/Aileron/aileron-light-webfont.woff') format('woff');
+  src: url('./fonts/Aileron/aileron-regular-webfont.woff2') format('woff2'),
+       url('./fonts/Aileron/aileron-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

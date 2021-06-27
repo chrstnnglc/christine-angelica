@@ -14,7 +14,7 @@
 
     <div class="container">
       <h3>Projects</h3>
-      <p class="p-intro">This is a collection of my experiences as a developer, reframed as UX projects.</p>
+      <p class="p-intro">A collection of my design experiences and developer work reframed as UX projects.</p>
       <div class="row descriptions">
         <div class="col s12 m12">
           <h4 id="mac">Company website</h4>
