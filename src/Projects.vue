@@ -18,6 +18,8 @@
       <div class="row descriptions">
         <div class="col s12 m12">
           <h4 id="mac">Company website</h4>
+          <img src="./assets/mac.png">
+          <p>Check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website.</a></p>
           <p>I designed and developed a static informational company website for Montepiedra Aggregates Corporation, an aggregates company in the Philippines. The website is designed to be simple, matching the company's visual identity approach. The company's target customers are in Visayas, where Internet connections are comparatively slow.</p>
 
           <p>Changes to the design were relatively flexible, since development was not as costly on time and effort.</p>
@@ -64,7 +66,7 @@
 
           <p>The user will be able to review their inputs just before submitting the forms for creation.</p>
 
-          <p><b>For future consideration:</b> Conducting an internal usability test with the design.</p>
+          <p><b>Future activity:</b> Conducting an internal usability test with the design.</p>
         </div>
       </div>
     </div>
@@ -94,6 +96,10 @@ export default {
 }
 .p-intro {
   font-size: 18px;
+}
+.descriptions .col img {
+  width: 90%;
+  height: 90%;
 }
 .descriptions h4 {
   text-align: left;

@@ -35,7 +35,7 @@
             </div> -->
             <div class="card-content">
               <span class="card-title">Company website</span>
-              <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <br> <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/">website.</a></p>
+              <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <br> <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website.</a></p>
             </div>
           </div>
         </div>
