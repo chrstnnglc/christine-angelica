@@ -1,63 +1,32 @@
 <template>
   <div id="home">
-    <!-- <nav>
+    <nav>
       <div class="nav-wrapper">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <ul> <!-- id="nav-mobile" class="right hide-on-med-and-down" -->
           <li><a href="/"><i class="material-icons">home</i></a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="background.html">Background</a></li>
-          <li><a href="interests.html">Interests</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/resume">Resume</a></li>
+          <!-- <li><a href="/contact">Contact</a></li> -->
         </ul>
       </div>
-    </nav> -->
+    </nav>
     <div class="hello row">
       <div class="col s12 m12">
+        <h1>Christine Felizardo</h1>
         <div class="pic">
           <img alt="Nix" src="./assets/nix-avatar.jpg">
           <!-- <img alt="Nix" src="./assets/nix-avatar2.png" class="img-top"> -->
         </div>
       </div>
       <div class="col s12 m12">
-        <h3>はじめまして！Christineです！<br>ヽ(・∀・)ﾉ</h3>
-        <h5>I am a software developer and UX enthusiast from Quezon City, Philippines.</h5>
+        <h5>I am a software developer from the Philippines, looking to transition to UX design.</h5>
+        <h6>Also, that's not really me: that's my character in Animal Crossing: New Horizons ヽ(・∀・)ﾉ</h6>
       </div>
     </div>
 
-    <!-- <div class="background container">
-      <h3>Background</h3>
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Problem solver</h5>
-
-            <p>I've been working as a software engineer for almost 3 years. As a translator of real-world scenarios to code, I have encountered (and solved!) many implementation challenges and roadblocks.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">Eager learner</h5>
-
-            <p>I am passionate about learning ways to make designs pleasant and usable. The challenges I encountered in my work as a software developer paved ways for me to learn.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Team player</h5>
-
-            <p>I work well with my teammates and colleagues, and form good relationships with them. I do my part to synthesize.</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="projects container">
-      <h3>Experience</h3>
+      <h3>In a nutshell 🥜</h3>
       <div class="row">
         <div class="col s12 m6">
           <div class="project card">
@@ -66,18 +35,15 @@
             </div> -->
             <div class="card-content">
               <span class="card-title">Company website</span>
-              <p>Designed and developed a static informational website for Montepiedra Aggregates Corporation. Ensured design stays true to their brand, and is accessible to potential customers. <a href="http://www.montepiedra.com.ph/">Check out the website.</a></p>
+              <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <br> <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website.</a></p>
             </div>
           </div>
         </div>
         <div class="col s12 m6">
           <div class="project card">
-            <!-- <div class="card-image">
-              <img alt="Nix" src="./assets/nix.jpg" class="img-top">
-            </div> -->
             <div class="card-content">
               <span class="card-title">School information system</span>
-              <p>Currently working with a team as a full stack developer, prominently on the Grading module, using Elixir, PostgreSQL, GraphQL, Angular, and Typescript. Ensures features are useful, accessible, and usable, and pleasant for the user to navigate.</p>
+              <p>I'm currently working with a team as a full stack developer, prominently on the Grading module. As a developer utilizing the provided designs and technology, I ensure the interface matches data structure and function, but is also pleasant for the user to navigate. <br> <a href="/projects#sis">Read more.</a></p>
             </div>
           </div>
         </div>
@@ -114,8 +80,8 @@ export default {
 <style>
 @font-face {
   font-family: 'Aileron';
-  src: url('./fonts/Aileron/aileron-light-webfont.woff2') format('woff2'),
-       url('./fonts/Aileron/aileron-light-webfont.woff') format('woff');
+  src: url('./fonts/Aileron/aileron-regular-webfont.woff2') format('woff2'),
+       url('./fonts/Aileron/aileron-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -128,10 +94,14 @@ export default {
   background-color: #f8f8ff;
 }
 nav {
-  background-color: #333f50;
+  background-color: #91a8d0;
 }
-nav a {
+nav a, nav a:visited {
   font-family: "Aileron";
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:hover {
   color: #ffffff;
 }
 a, a:visited {
@@ -145,13 +115,35 @@ a:hover {
   margin-bottom: 0px;
 }
 .hello {
-  padding-top: 50px;
   background-color: #91a8d0;
   padding-bottom: 50px;
 }
-.hello h3, .hello h5 {
+.hello h1, .hello h5, .hello h6 {
   text-align: center;
   color: #ffffff;
+}
+.hello .pic img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.hello .pic {
+  position: relative;
+  display: inline-block;
+}
+.hello .pic .img-top {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.hello .pic:hover .img-top {
+  display: inline;
+  opacity: 1;
 }
 .background {
   padding-top: 40px;
@@ -178,9 +170,9 @@ a:hover {
   background-color: white;
   padding-bottom: 100px;
 }*/
-h3 {
+/*#home .hello h3 {
   margin: 40px 0 0;
-}
+}*/
 ul {
   list-style-type: none;
   padding: 0;
@@ -191,28 +183,6 @@ li {
 }
 a {
   color: #42b983;
-}
-.hello .pic img {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-}
-.pic {
-  position: relative;
-  display: inline-block;
-}
-.pic .img-top {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-.pic:hover .img-top {
-  display: inline;
-  opacity: 1;
 }
 .cert {
   width: 90%;
