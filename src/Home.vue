@@ -105,7 +105,7 @@ nav a:hover {
   color: #ffffff;
 }
 a, a:visited {
-  color: #2c3e50;
+  color: #2c3e50 !important;
   text-decoration: underline;
 }
 a:hover {
