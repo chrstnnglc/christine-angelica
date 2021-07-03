@@ -104,8 +104,12 @@ nav a, nav a:visited {
 nav a:hover {
   color: #ffffff;
 }
-a, a:visited {
-  color: #2c3e50 !important;
+a {
+  color: #2c3e50;
+  text-decoration: underline;
+}
+a:visited {
+  color: #2c3e50;
   text-decoration: underline;
 }
 a:hover {
