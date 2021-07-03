@@ -96,7 +96,7 @@ export default {
 nav {
   background-color: #91a8d0;
 }
-nav a, nav a:visited {
+nav a:link, nav a:visited {
   font-family: "Aileron";
   color: #ffffff;
   text-decoration: none;
@@ -104,11 +104,7 @@ nav a, nav a:visited {
 nav a:hover {
   color: #ffffff;
 }
-a {
-  color: #2c3e50;
-  text-decoration: underline;
-}
-a:visited {
+a:link, a:visited {
   color: #2c3e50;
   text-decoration: underline;
 }
