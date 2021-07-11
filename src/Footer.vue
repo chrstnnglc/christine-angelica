@@ -6,7 +6,7 @@
           <h5>Let's connect!</h5>
           <div class="icon-block">
             <h6 class="center">
-              <a href="https://www.linkedin.com/in/christine-felizardo-116625136/" target="_blank"><img src="./assets/linkedin.png"></a>
+              <a href="https://www.linkedin.com/in/catfelizardo/" target="_blank"><img src="./assets/linkedin.png"></a>
               <a href="https://www.twitter.com/chrstnnglc" target="_blank"><img src="./assets/twitter.png" /></a>
               <!-- <a href="mailto:catfelizardo@gmail.com" target="_blank"><img src="./assets/email.png" /></a> -->
             </h6>

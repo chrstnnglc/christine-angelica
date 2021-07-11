@@ -14,7 +14,7 @@
 
     <div class="container">
       <h4>Christine Angelica Felizardo</h4>
-      <h6><a href="https://www.linkedin.com/in/christine-felizardo-116625136/" target="_blank">LinkedIn</a> | catfelizardo@gmail.com</h6>
+      <h6><a href="https://www.linkedin.com/in/catfelizardo/" target="_blank">LinkedIn</a> | catfelizardo@gmail.com</h6>
       <div class="row">
         <div class="col s12 m12">
           <h5>Educational Background</h5>
