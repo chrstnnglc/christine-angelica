@@ -55,12 +55,12 @@
       <div class="row">
         <div class="col s12 m6">
           <img src="./assets/ixdf-member.jpg" class="cert">
-          <h6><a href="https://www.interaction-design.org/christine-felizardo/certificate/membership/QD11LtLx1?r=christine-felizardo">Member</a></h6>
+          <h6><a href="https://www.interaction-design.org/christine-felizardo/certificate/membership/QD11LtLx1?r=christine-felizardo" target="_blank">Member</a></h6>
           <h6>The Interaction Design Foundation</h6>
         </div>
         <div class="col s12 m6">
           <img src="./assets/ixdf-tpgu.jpg" class="cert">
-          <h6><a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d6be9e76-a2ad-4ec9-a4fc-bc3ac2bd424d?certificateType=course">The Practical Guide to Usability (Top 10% Distinction)</a></h6>
+          <h6><a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d6be9e76-a2ad-4ec9-a4fc-bc3ac2bd424d?certificateType=course" target="_blank">The Practical Guide to Usability (Top 10% Distinction)</a></h6>
           <h6>The Interaction Design Foundation</h6>
         </div>
       </div>
