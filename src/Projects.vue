@@ -14,12 +14,25 @@
 
     <div class="container">
       <h3>Projects</h3>
-      <p class="p-intro">A collection of my design experiences and developer work reframed as UX projects.</p>
+      <p class="p-intro">A detailed collection of my design experiences and developer work reframed as UX projects.</p>
+
       <div class="row descriptions">
         <div class="col s12 m12">
-          <h4 id="mac">Company website</h4>
-          <img src="./assets/mac.png">
-          <p>Check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website.</a></p>
+
+          <h4 id="vacc">Vaccination booking mini web app</h4>
+          <img src="./assets/proj/vacc.png">
+          <p>Check out the <a href="https://book-vax.herokuapp.com/" target="_blank">website</a>.</p>
+          <p>For my onboarding at Akaru Philippines, I was tasked to design and develop a vaccination booking mini web app. This was my first experience with Figma, as well as React development.
+            
+          <p>I sketched the initial design, then created mockups on Figma. In development, I used Django for the API calls, React Typescript as the front-end framework, MySQL for the database, and Bootstrap as the UI framework.</p>
+
+          <p>Since the project was made on a time limit, I aimed to finish the main features. Many improvements can still be made in the app, such as alignment of the text in the buttons and implementing a login feature for the Admin page.</p>
+
+          <hr>
+
+          <h4 id="mac">Montepiedra Aggregates Corporation company website</h4>
+          <img src="./assets/proj/mac.png">
+          <p>Check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website</a>.</p>
           <p>I designed and developed a static informational company website for Montepiedra Aggregates Corporation, an aggregates company in the Philippines. The website is designed to be simple, matching the company's visual identity approach. The company's target customers are in Visayas, where Internet connections are comparatively slow.</p>
 
           <p>Changes to the design were relatively flexible, since development was not as costly on time and effort.</p>
@@ -65,8 +78,6 @@
           <p>With these designs and the tech stack in mind, I developed the interface so that users can add top-level components and subcomponents under existing components, and input the necessary fields. I used Angular Forms and the Angular Material Tree module.</p>
 
           <p>The user will be able to review their inputs just before submitting the forms for creation.</p>
-
-          <p><b>Future activity:</b> Conducting an internal usability test with the design.</p>
         </div>
       </div>
     </div>

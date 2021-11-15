@@ -16,9 +16,6 @@
       <h3>About Christine (that's me)</h3>
       <div class="row">
         <div class="col s12 m12">
-          <img src="./assets/about-img.png">
-        </div>
-        <div class="col s12 m12">
           <p>I'm a full-stack software developer in the lovely, lively city of Quezon City in the Philippines. While bulk of my work experience is in code, I'm hoping to transition to a UX career; to do that, I learn what I can by attending UX seminars and taking online courses. I find fulfillment in solving problems, and I enjoy trying new things. 🍰</p>
 
           <p>In my spare time, I like watching TV shows/anime/YouTube videos, playing video games, reading books, and learning Japanese. I also like collecting albums and cards (photocards, trading cards, postcards - whatever falls in that category).</p>
