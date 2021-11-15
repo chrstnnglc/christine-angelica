@@ -31,7 +31,7 @@
           <div class="project card">
             <div class="card-content">
               <span class="card-title">Mini app</span>
-              <p>For my onboarding at Akaru Philippines, I was tasked to design and develop a mini web app to book and manage vaccination appointments. This was my first experience with Figma, as well as React development. <br> <a href="/projects#vacc">Read more</a>, or check out the <a href="https://book-vax.herokuapp.com/" target="_blank">website</a>.</p>
+              <p>For my onboarding at Akaru Philippines, I was tasked to design and develop a mini web app to book and manage vaccination appointments. This was my first experience with Figma, as well as React development. <a href="/projects#vacc">Read more</a>, or check out the <a href="https://book-vax.herokuapp.com/" target="_blank">website</a>.</p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
           <div class="project card">
             <div class="card-content">
               <span class="card-title">Company website</span>
-              <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <br> <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website</a>.</p>
+              <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website</a>.</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
           <div class="project card">
             <div class="card-content">
               <span class="card-title">School information system</span>
-              <p>I worked with a team as a full stack developer, prominently on the Grading module. As a developer utilizing the provided designs and technology, I ensure the interface matches data structure and function, but is also pleasant for the user to navigate. <br> <a href="/projects#sis">Read more.</a></p>
+              <p>I worked with a team as a full stack developer, prominently on the Grading module. As a developer utilizing the provided designs and technology, I ensured the interface matches data structure and function, but is also pleasant for the user to navigate. <a href="/projects#sis">Read more.</a></p>
             </div>
           </div>
         </div>
