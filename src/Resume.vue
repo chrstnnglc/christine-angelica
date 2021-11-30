@@ -33,7 +33,7 @@
           </p>
           <p class="resume-list"><b>October 2018 - August 2021: Software developer at Headstart Business Solutions Inc.</b>
             <br>
-            Working with a team on a school information system, most prominently on the Grading module. Developed various functionalities using Elixir, GraphQL, Angular, and Typescript. Ensured that the user side of the system is usable and would provide a hassle-free experience for the user.
+            Worked with a team on a school information system, most prominently on the Grading module. Developed various functionalities using Elixir, GraphQL, Angular, and Typescript. Ensured that the user side of the system is usable and would provide a hassle-free experience for the user.
           </p>
           <p class="resume-list"><b>July - September 2018: Freelance</b>
             <br>
@@ -58,7 +58,7 @@
 
           <h5>Certificates</h5>
           <p class="resume-list"><a href="https://www.interaction-design.org/christine-felizardo/certificate/membership/QD11LtLx1?r=christine-felizardo">Member</a>, Interaction Design Foundation</p>
-          <p class="resume-list"><a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d6be9e76-a2ad-4ec9-a4fc-bc3ac2bd424d?certificateType=course">The Practical Guide to Usability (Top 10% Distinction)</a>, Interaction Design Foundation</p>
+          <!-- <p class="resume-list"><a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d6be9e76-a2ad-4ec9-a4fc-bc3ac2bd424d?certificateType=course">The Practical Guide to Usability (Top 10% Distinction)</a>, Interaction Design Foundation</p> -->
           <p class="resume-list"><a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d384bf4f-9561-4c7a-852d-07e295b39f6d" target="_blank">Become a UX Designer from Scratch (Top 10% Distinction)</a>, Interaction Design Foundation</p>
 
         </div>

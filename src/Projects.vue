@@ -49,35 +49,6 @@
           <p>Outside of the design process, I also set up the client's web and email hosting.</p>
 
           <p><b>For future consideration:</b> gathering visitor feedback and improving the design based on those insights.</p>
-
-          <hr>
-
-          <h4 id="sis">Batch Setup Grading module for a school information system</h4>
-          <p>I’m currently working with a team on a new version of an integrated information management system for schools. The modules include admissions, enrollment, revenue processing, grading, etc. As a developer, I translate the database design and wireframes to code, and helped improve on those designs through the lens of the tech stack. I primarily developed the Grading module, to be used mostly by teachers to manage student grades.</p>
-
-          <p>For this project, we prioritized developing all the features first before modifying the aesthetics. But the Angular Material framework provides the interface with a clean and modern look, and neatly organizes the numerous workflows available in the system.</p>
-
-          <p>After reaching certain milestones, we conduct internal usability tests to ensure that the features are usable and the design makes them pleasant to use. Our testers are technical support associates - who frequently coordinate with our client schools - of the current version of our school information system, and the sales team. We then use the feedback from our tests to improve on system features and design.</p>
-
-          --
-
-          <p>One particular workflow of the Grading module allows the teacher (the user) to set up grading components for one or more classes before the academic year begins. </p>
-
-          <p>The challenge was more on coding, but design still played an important role. Given the wireframe and the database schema of the <code>GradingComponent</code> object, I thought about which data structure to use to easily visualize the object data, and worked on how that can be best viewed on the interface.</p>
-
-          <p>For each grading component, users need to input or select the following:</p>
-          <p class="desc-list">
-            the name of the grading component,<br>
-            whether or not it has subcomponents,<br>
-            what percent of its parent it takes up (decimal values between 0 to 100), and<br>
-            whether or not it is credited.
-          </p>
-
-          <p>Structured as a tree, the <code>GradingComponent</code> object can be nested in another of its kind; it can have many subcomponents that are also <code>GradingComponents</code>. There is no limit to the tree’s depth.</p>
-
-          <p>With these designs and the tech stack in mind, I developed the interface so that users can add top-level components and subcomponents under existing components, and input the necessary fields. I used Angular Forms and the Angular Material Tree module.</p>
-
-          <p>The user will be able to review their inputs just before submitting the forms for creation.</p>
         </div>
       </div>
     </div>

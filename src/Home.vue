@@ -20,14 +20,14 @@
         </div>
       </div>
       <div class="col s12 m12">
-        <h5>I'm a software engineer from the Philippines, looking to transition to UX design.</h5>
+        <h5>I'm a software engineer from the Philippines, looking to transition to UX design!</h5>
       </div>
     </div>
 
     <div class="projects container">
       <h3>In a nutshell 🥜</h3>
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="project card">
             <div class="card-content">
               <span class="card-title">Mini app</span>
@@ -35,19 +35,11 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="project card">
             <div class="card-content">
               <span class="card-title">Company website</span>
               <p>I designed and developed a static informational website for an aggregates company, ensuring design stays true to their visual identity, and is accessible to potential customers. <a href="/projects#mac">Read more</a>, or check out the <a href="http://www.montepiedra.com.ph/" target="_blank">website</a>.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m4">
-          <div class="project card">
-            <div class="card-content">
-              <span class="card-title">School information system</span>
-              <p>I worked with a team as a full stack developer, prominently on the Grading module. As a developer utilizing the provided designs and technology, I ensured the interface matches data structure and function, but is also pleasant for the user to navigate. <a href="/projects#sis">Read more.</a></p>
             </div>
           </div>
         </div>
@@ -57,17 +49,17 @@
     <div class="certificates container">
       <h3>Certificates</h3>
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <a href="https://www.interaction-design.org/christine-felizardo/certificate/membership/QD11LtLx1?r=christine-felizardo" target="_blank"><img src="./assets/certs/ixdf-member.jpg" class="cert"></a>
           <h6>Member</h6>
           <span>The Interaction Design Foundation</span>
         </div>
-        <div class="col s12 m4">
+        <!-- <div class="col s12 m4">
           <a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d6be9e76-a2ad-4ec9-a4fc-bc3ac2bd424d?certificateType=course" target="_blank"><img src="./assets/certs/ixdf-tpgu.jpg" class="cert"></a>
           <h6>The Practical Guide to Usability (Top 10% Distinction)</h6>
           <span>The Interaction Design Foundation</span>
-        </div>
-        <div class="col s12 m4">
+        </div> -->
+        <div class="col s12 m6">
           <a href="https://www.interaction-design.org/christine-felizardo/certificate/course/d384bf4f-9561-4c7a-852d-07e295b39f6d" target="_blank"><img src="./assets/certs/ixdf-buxdfs.jpg" class="cert"></a>
           <h6>Become a UX Designer from Scratch (Top 10% Distinction)</h6>
           <span>The Interaction Design Foundation</span>
