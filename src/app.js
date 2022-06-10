@@ -15,8 +15,6 @@ const onNavigate = (pathname) => {
     )
     rootDiv.innerHTML = routes[pathname]
 }
-
-console.log("hlep");
   
 window.onpopstate = () => {
     rootDiv.innerHTML = routes[window.location.pathname]
