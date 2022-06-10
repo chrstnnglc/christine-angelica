@@ -36,18 +36,16 @@ class Header extends HTMLElement {
                 </div>
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="./index.html">
+                    <a href="#/" onclick="onNavigate('/'); return false;">
                         <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
                         <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow">
                     </a>
                 </div>
                 <div class="hidden sm:block sm:ml-6">
                     <div class="flex space-x-4">
-                    <a href="./pages/about.html" class="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                    <a href="#" onclick="onNavigate('/about'); return false;" class="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
 
-                    <a href="./pages/projects/book-vax.html" class="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-
-                    <a href="#" class="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
+                    <a href="#" onclick="onNavigate('/projects/book-vax'); return false;" class="text-white hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
                     </div>
                 </div>
                 </div>
