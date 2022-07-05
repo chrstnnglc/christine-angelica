@@ -1,7 +1,5 @@
 const routes = {
     '/' : home,
-    '/about' : about,
-    '/projects/book-vax' : projectBookVax
 };
 
 const rootDiv = document.getElementById('root');
