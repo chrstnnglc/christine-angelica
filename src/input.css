@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-    font-family: Open Sans;
+    font-family: Inconsolata;
+    background-color: aliceblue;
 }
 
 #root {
@@ -16,16 +17,32 @@ nav {
 }
 
 .intro {
-    margin: 150px;
+    margin: 180px 120px;
 }
 
 h1 {
+    line-height: 2;
     text-align: center;
 }
 
-.project {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.project, .connect {
+    margin: 50px 190px;
+}
+
+.project img {
+    margin: 20px 0px;
+}
+
+.connect {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.connect button {
+    padding: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(56 189 248);
 }
