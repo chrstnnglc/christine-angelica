@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "main": "tailwind.config.js",
     "scripts": {
-        "serve": "live-server"
+        "serve": "live-server",
+        "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
     },
     "repository": {
         "type": "git",
