@@ -1,20 +1,21 @@
 {
-  "name": "christine-angelica",
-  "version": "1.0.0",
-  "description": "```\r npm install\r ```",
-  "main": "tailwind.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "live": "live-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chrstnnglc/christine-angelica.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chrstnnglc/christine-angelica/issues"
-  },
-  "homepage": "https://github.com/chrstnnglc/christine-angelica#readme"
+    "name": "amplify_js",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tailwind.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "live-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chrstnnglc/christine-angelica.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chrstnnglc/christine-angelica/issues"
+    },
+    "homepage": "https://github.com/chrstnnglc/christine-angelica#readme",
+    "dependencies": {"aws-amplify": "latest"}
 }
