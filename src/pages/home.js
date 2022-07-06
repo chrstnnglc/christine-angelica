@@ -1,67 +1,67 @@
 const home = `
 <div class="intro">
-    <h1 class="text-6xl text-left leading-normal">
+    <h1 class="text-3xl leading-normal sm:text-6xl sm:leading-normal">
         Hi there! I’m <b>Christine</b>, a front-end engineer in Manabie, from the lively city of Quezon City in the Philippines.
     </h1>
-    <h2 class="text-2xl">
+    <h2 class="text-lg text-left sm:text-2xl">
         I want to transition to UX design.
     </h2>
-    <h2 class="text-2xl">
+    <h2 class="text-lg text-left sm:text-2xl">
         I enhance my UX knowledge by taking courses, attending talks and seminars, and working on UX projects.
     </h2>
 </div>
-<h1 class="text-5xl font-bold">
+<h1 class="text-2xl text-center font-bold sm:text-5xl">
     Projects
 </h1>
-<div class="project">
+<div class="project sm:project-sm">
     <img src="src/static/bookvax.png">
-    <h2 class="text-3xl">Book Vax</h2>
+    <h2 class="text-2xl sm:text-3xl">Book Vax</h2>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <p class="text-md sm:text-xl break-after-auto">
         For my onboarding at Akaru Philippines, I was tasked to design and develop a mini web app to book and manage vaccination appointments.
-    </h3>
+    </p>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <h3 class="text-md sm:text-xl break-after-auto">
         This was my first experience with Figma, as well as React development.
     </h3>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <h3 class="text-md sm:text-xl break-after-auto">
         Shall we get vacc together?
     </h3>
     <br>
-    <a href="https://christine-angelica.notion.site/Book-Vax-a-vaccination-booking-mini-app-a3dda95eb3974ae0ae0aaa944b9a68a9" class="text-lg text-sky-400">Read more →</a>
+    <a href="https://christine-angelica.notion.site/Book-Vax-a-vaccination-booking-mini-app-a3dda95eb3974ae0ae0aaa944b9a68a9" class="text-md text-sky-400 sm:text-lg">Read more →</a>
 </div>
-<div class="project">
+<div class="project sm:project-sm">
     <img src="src/static/montepiedra.png">
-    <h2 class="text-3xl">Montepiedra website</h2>
+    <h2 class="text-2xl sm:text-3xl">Montepiedra website</h2>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <h3 class="text-md sm:text-xl break-after-auto">
         Montepiedra Aggregates Corporation is the leading aggregates supplier in Iloilo, providing rock for many construction companies in the country.
     </h3>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <h3 class="text-md sm:text-xl break-after-auto">
         I worked with the client to design and develop an informational company website. With our collaboration, we came up with a static website designed to be simple, matching the company's visual identity approach.
     </h3>
     <br>
-    <a href="https://christine-angelica.notion.site/Montepiedra-Aggregates-Corporation-website-aa220bfeb7be4144a09461feebf3c471" class="text-lg text-sky-400">Read more →</a>
+    <a href="https://christine-angelica.notion.site/Montepiedra-Aggregates-Corporation-website-aa220bfeb7be4144a09461feebf3c471" class="text-md text-sky-400 sm:text-lg">Read more →</a>
 </div>
-<div class="project">
+<div class="project sm:project-sm">
     <img src="src/static/freshteam.png">
-    <h2 class="text-3xl">Akaru Freshteam career page redesign</h2>
+    <h2 class="text-2xl sm:text-3xl">Akaru Freshteam career page redesign</h2>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <h3 class="text-md sm:text-xl break-after-auto">
         First impressions last. When an aspiring applicant arrives at the Akaru careers page, they should feel what it’s like to be working with Akaru: fresh, engaging, and awe-inspiring.
     </h3>
     <br>
-    <h3 class="text-xl break-after-auto">
+    <h3 class="text-md sm:text-xl break-after-auto">
         In this small project, I designed the look and feel, and customized the elements of Akaru’s careers page on Freshteam.
     </h3>
     <br>
-    <a href="https://christine-angelica.notion.site/Akaru-Freshteam-career-page-redesign-caadb06e11484891b3b797218c0ecb65" class="text-lg text-sky-400">Read more →</a>
+    <a href="https://christine-angelica.notion.site/Akaru-Freshteam-career-page-redesign-caadb06e11484891b3b797218c0ecb65" class="text-md text-sky-400 sm:text-lg">Read more →</a>
 </div>
 <div class="connect">
     <h2 class="text-xl">Say hi!</h2>
-    <h1 class="text-4xl break-after-auto">
+    <h1 class="text-2xl text-center sm:text-4xl break-after-auto">
         catfelizardo@gmail.com
     </h2>
     <div class="buttons">
