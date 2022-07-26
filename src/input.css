@@ -4,7 +4,8 @@
 
 body {
     font-family: Inconsolata;
-    background-color: aliceblue;
+    background-color: white;
+    border: 10px solid #5ac8ff;
 }
 
 #root {
@@ -12,12 +13,8 @@ body {
     margin-left: 30px;
 }
 
-nav {
-    padding: 25px 30px;
-}
-
 .intro {
-    margin: 180px 120px;
+    margin: 120px 120px;
 }
 
 .intro-h1 {
