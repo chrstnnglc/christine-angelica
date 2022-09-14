@@ -21,7 +21,7 @@ body {
     line-height: 1.5;
 }
 
-.project, .connect {
+.project {
     margin: 50px 190px;
 }
 
@@ -29,12 +29,12 @@ body {
     margin: 20px 0px;
 }
 
-.connect {
+.buttons {
     margin-bottom: 100px;
     text-align: center;
 }
 
-.connect button {
+.buttons button {
     padding: 30px;
 }
 
@@ -47,7 +47,4 @@ a:hover {
     .intro {
         margin: 30px;
     }
-    .project, .connect {
-        margin: 30px;
-    }    
 }
