@@ -1,10 +1,10 @@
 const home = `
 <div class="intro">
     <h1 class="text-3xl leading-normal sm:text-6xl sm:leading-normal">
-        Hi there! I’m <b>Christine</b>, a front-end engineer in Akaru, from the lively city of Quezon City in the Philippines.
+        Hi there! I’m <b>Christine</b>, a freelance user experience designer, from the lively city of Quezon City in the Philippines.
     </h1>
     <h2 class="text-lg text-left sm:text-2xl">
-        I want to transition to UX design.
+        I am transitioning from a software engineering role.
     </h2>
     <h2 class="text-lg text-left sm:text-2xl">
         I enhance my UX knowledge by taking courses, attending talks and seminars, and working on UX projects.
