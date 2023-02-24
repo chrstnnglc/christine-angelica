@@ -4,7 +4,7 @@ const home = `
         Hi there! I’m <b>Christine</b>, a user experience engineer, from the lively city of Quezon City in the Philippines.
     </h1>
     <h2 class="text-lg text-left sm:text-2xl">
-        I am transitioning from a software engineering role.
+        I have experience in software engineering and building websites!
     </h2>
     <h2 class="text-lg text-left sm:text-2xl">
         I enhance my UX knowledge by taking courses, attending talks and seminars, and working on UX projects.
