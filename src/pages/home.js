@@ -33,7 +33,7 @@ const home = `
 </div>
 <div class="project sm:project-sm">
     <img src="src/static/montepiedra.png">
-    <h2 class="text-2xl sm:text-3xl">Montepiedra website</h2>
+    <h2 class="text-2xl sm:text-3xl">Montepiedra Aggregates Corporation website</h2>
     <br>
     <h3 class="text-md sm:text-xl break-after-auto">
         Montepiedra Aggregates Corporation is the leading aggregates supplier in Iloilo, providing rock for many construction companies in the country.
