@@ -14,22 +14,22 @@ const home = `
     Projects
 </h1>
 <div class="project">
-    <img src="src/static/bookvax.png">
-    <h2 class="text-2xl sm:text-3xl">Book Vax</h2>
+    <img src="src/static/engginsights.png">
+    <h2 class="text-2xl sm:text-3xl">Manabie International Engineering Team Insights</h2>
     <br>
     <p class="text-md sm:text-xl break-after-auto">
-        For my onboarding at Akaru Philippines, I was tasked to design and develop a mini web app to book and manage vaccination appointments.
+        The Engineering team at Manabie is composed of developers and leaders of varying functions and squads, all building great things.
     </p>
     <br>
     <h3 class="text-md sm:text-xl break-after-auto">
-        This was my first experience with Figma, as well as React development.
+        In Q3 of 2022, we conducted a survey to get to know the team more. The PDF document output identifies their backgrounds, capabilities and interests, and provided recommendations on how the company can help provide opportunities to improve skills and well-being.
     </h3>
     <br>
     <h3 class="text-md sm:text-xl break-after-auto">
-        Shall we get vacc together?
+        I managed this project, and worked on the overall design and text content of the document. I worked with a team who helped provide graphs for the results and feedback for the output.
     </h3>
     <br>
-    <a href="https://christine-angelica.notion.site/Book-Vax-a-vaccination-booking-mini-app-a3dda95eb3974ae0ae0aaa944b9a68a9" class="text-md text-sky-400 sm:text-lg">Read more →</a>
+    <a href="https://christine-angelica.notion.site/Manabie-International-Engineering-Team-Insights-August-2022-cd5453f5326445d9829cdadcd9439f33" class="text-md text-sky-400 sm:text-lg">Read more →</a>
 </div>
 <div class="project sm:project-sm">
     <img src="src/static/montepiedra.png">
