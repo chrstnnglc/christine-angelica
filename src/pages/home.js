@@ -1,6 +1,6 @@
 const home = `
 <div class="intro">
-    <h1 class="text-3xl leading-normal sm:text-6xl sm:leading-normal">
+    <h1 class="text-3xl leading-normal sm:text-5xl sm:leading-normal">
         Hi there! I’m <b>Christine</b>, a user experience designer from the lively city of Quezon City in the Philippines.
     </h1>
     <h2 class="text-lg text-left sm:text-2xl">
@@ -10,7 +10,7 @@ const home = `
         I enhance my UX knowledge by taking courses, attending talks and seminars, and working on UX projects.
     </h2>
 </div>
-<h1 class="text-2xl text-center font-bold sm:text-5xl">
+<h1 class="text-2xl text-center font-bold sm:text-4xl">
     Projects
 </h1>
 <br>
@@ -33,7 +33,7 @@ const home = `
     <br>
     <a href="https://christine-angelica.notion.site/Manabie-International-Engineering-Team-Insights-August-2022-cd5453f5326445d9829cdadcd9439f33" class="text-md text-sky-400 sm:text-lg">Read more →</a>
 </div>
-<div class="project sm:project-sm">
+<div class="project">
     <img src="src/static/montepiedra.png">
     <h2 class="text-2xl sm:text-3xl">Montepiedra Aggregates Corporation website</h2>
     <br>
@@ -47,7 +47,7 @@ const home = `
     <br>
     <a href="https://christine-angelica.notion.site/Montepiedra-Aggregates-Corporation-website-aa220bfeb7be4144a09461feebf3c471" class="text-md text-sky-400 sm:text-lg">Read more →</a>
 </div>
-<div class="project sm:project-sm">
+<div class="project">
     <img src="src/static/freshteam.png">
     <h2 class="text-2xl sm:text-3xl">Akaru Freshteam career page redesign</h2>
     <br>

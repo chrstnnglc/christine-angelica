@@ -47,4 +47,8 @@ a:hover {
     .intro {
         margin: 30px;
     }
+
+    .project {
+        margin: 50px;
+    }
 }
