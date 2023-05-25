@@ -1,7 +1,7 @@
 const home = `
 <div class="intro">
     <h1 class="text-3xl leading-normal sm:text-5xl sm:leading-normal">
-        Hi there! I’m <b>Christine</b>, a user experience designer from the lively city of Quezon City in the Philippines.
+        Hi there! I’m <b>Christine</b>, a user experience engineer from the lively city of Quezon City in the Philippines.
     </h1>
     <h2 class="text-lg text-left sm:text-2xl">
         I have experience in software engineering and building websites!
